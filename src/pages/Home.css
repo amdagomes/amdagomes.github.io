@@ -1,0 +1,54 @@
+.text-ligth{
+    font-weight: 300 !important;
+}
+
+.background{
+    z-index: -1;
+    position: absolute;
+}
+
+section.section{
+    background-image: url("../img/wall1.jpg");
+    height: 100%;
+    min-height: 400px;
+    max-height: 500px;
+}
+
+div.box-info{
+    margin: -7%;
+}
+div.info{
+    padding: 2rem;
+}
+
+.speech-bubble { 
+    width: 100%;
+    min-width: 100px;
+    max-width: 120px;
+    padding: .3rem;
+    position: relative; 
+    background: #209cee; 
+    border-radius: .2em; 
+} 
+.speech-bubble:after { 
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 25%; 
+    width: 0; 
+    height: 0; 
+    border: 10px solid transparent; 
+    border-top-color: #209cee; 
+    border-bottom: 0; 
+    border-left: 0; 
+    margin-left: -13px; 
+    margin-bottom: -10px; 
+}
+
+.table td{
+    border-width: 0;
+}
+
+.links{
+    padding: .5rem;
+}
